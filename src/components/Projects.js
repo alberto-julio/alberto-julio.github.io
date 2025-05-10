@@ -3,7 +3,7 @@ import './Projects.css';
 import me from '../Me.png';
 import peace from '../peace.jpeg';
 import power from '../power.jpeg';
-import testImg from '../test.png';
+import minato from '../test.png';
 import gradPhoto from '../grad.jpg';
 
 function Projects () {
@@ -11,92 +11,92 @@ function Projects () {
     const projectList = [
         {
             title: "Vapor Tunes",
-            description: "NLP, Python, Next.js, FastAPI, Spotify API \t Created a Spotify Mood Based playlist generator",
-            image: me,
+            description: "Created an end to end Spotify Mood Based playlist generator",
+            image: minato,
             link: "https://github.com/username/project1",
         },
         {
             title: "ZipTie",
-            description: "Long term startup/passion projct, creating video games with my co-founder \t C#, Unity, Blender",
-            image: peace,
+            description: "Long term startup/passion projct, creating video games with my co-founder",
+            image: minato,
             link: "https://github.com/username/project2",
         },
         {
             title: "Solitaire",
-            description: "Small passion project i used to create in a spider solitaire game | Java, Swing",
-            image: power,
+            description: "Small passion project i used to create in a spider solitaire game",
+            image: minato,
             link: "https://github.com/username/project1",
         },
         {
             title: "Elections Dataset Analysis",
-            description: "Created a ",
-            image: testImg,
+            description: "Analyzedan elections dataset to predict the likelihood of a candidate winning their elections based on endorsements from certain political figures",
+            image: minato,
             link: "https://github.com/username/project2",
         },
         {
             title: "Neural Network",
-            description: "This is a brief description of Project 1.",
-            image: gradPhoto,
+            description: "Created a very basic neural network",
+            image: minato,
             link: "https://github.com/username/project1",
         },
         {
             title: "Pacman",
-            description: "This is a brief description of Project 2.",
-            image: me,
+            description: "Implemented AI principles such as minimax, alpha beta pruning and more in a pacman game",
+            image: minato,
             link: "https://github.com/username/project2",
         },
         {
             title: "Bayes Net",
-            description: "This is a brief description of Project 1.",
-            image: peace,
+            description: "Implemented a bayes net and other AI principles into a pacman game",
+            image: minato,
             link: "https://github.com/username/project1",
         },
         {
             title: "Spam and Ham",
-            description: "This is a brief description of Project 2.",
-            image: power,
+            description: "Created a spam email classifier",
+            image: minato,
             link: "https://github.com/username/project2",
         },
         {
             title: "Housing Model",
-            description: "This is a brief description of Project 1.",
-            image: testImg,
+            description: "Created a model to predict housing prices within cooke county",
+            image: minato,
             link: "https://github.com/username/project1",
         },
         {
             title: "Image Classifier",
-            description: "This is a brief description of Project 2.",
-            image: gradPhoto,
+            description: "Used assembly to create an image classifier using the MNIST dataset",
+            image: minato,
             link: "https://github.com/username/project2",
         },
         {
             title: "Kachow",
             description: "Utilized C to optiimize matrix multiplication.",
-            image: me,
+            image: minato,
             link: "https://github.com/username/project1",
         },
         {
             title: "Snake",
-            description: "This is a brief description of Project 2.",
-            image: peace,
+            description: "Implemented the game Snake in C.",
+            image: minato,
             link: "https://github.com/username/project2",
         },
         {
             title: "Build Your Own World",
             description: "Created a 2d textile based game in Java.",
-            image: power,
+            image: minato,
             link: "https://github.com/username/project1",
         },
         {
             title: "Word Net",
-            description: "Built a wordnet similar to the one used in the IBM watson.",
-            image: testImg,
+            description: "Built a wordnet similar to the one used in the IBM watson using Java.",
+            image: minato,
             link: "https://github.com/username/project2",
         },
         {
             title: "Scheme",
             description: "Built an interpreter to tokenize Scheme code using python.",
-            image: gradPhoto,
+            image: minato,
             link: "https://github.com/alberto-julio/Scheme",
         },
     ];

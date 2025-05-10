@@ -46,4 +46,3 @@ Website: yourdomain.com
 LinkedIn: linkedin.com/in/yourprofile
 
 Email: youremail@example.com
->>>>>>> f4fe0dc82c3aa46a8928da053b0cf5d772d2fae2

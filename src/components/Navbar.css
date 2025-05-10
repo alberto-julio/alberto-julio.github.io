@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #333;
+    color: #61dafb;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style: none;
+    color: #61dafb;
+    font-family: "Comic Sans MS", "Comic Sans";
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item-right {
+    color: #61dafb;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.nav-item-center {
+    color: #61dafb;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    margin: auto;
+    text-decoration: none;
+}
+
+
+a {
+    color: #61dafb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #61dafb;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    color: #61dafb;
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-color: #282c34;
+  color: #61dafb;
+  transform: translateY(80px); /* Subtle upward nudge */
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.left-section img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.left-section .name-container {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+.about-container {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.right-container {
+  font-size: 1.2rem;
+}

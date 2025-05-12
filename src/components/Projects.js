@@ -13,13 +13,13 @@ function Projects () {
             title: "Vapor Tunes",
             description: "Created an end to end Spotify Mood Based playlist generator",
             image: minato,
-            link: "https://github.com/username/project1",
+            link: "https://github.com/alberto-julio/vaportunes",
         },
         {
             title: "ZipTie",
             description: "Long term startup/passion projct, creating video games with my co-founder",
             image: minato,
-            link: "https://github.com/username/project2",
+            link: "https://github.com/alberto-julio/Zip-Tie",
         },
         {
             title: "Solitaire",

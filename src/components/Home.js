@@ -3,7 +3,7 @@ import './Home.css';
 import me from '../Me.png';
 
 function Home() {
-  const aboutIntro = "I'm a Berkeley Data Science graduate from Orange County, CA. I have a strong passion for all things computing and software. I am currently seeking opportunities to apply my skills and contribute to the world of technology.";
+  const aboutIntro = "I'm a Berkeley Data Science graduate from Orange County, CA. I have a strong passion for all things data and software. I am currently seeking opportunities to apply my skills and contribute to the world of technology.";
   const name = "Alberto Julio";
   const aspire = 'Aspiring Software Engineer';
   const aboutMeHeader = "About Me";

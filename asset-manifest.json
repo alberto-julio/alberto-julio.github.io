@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/alberto-julio.github.io/static/css/main.5db27278.css",
+    "main.js": "/alberto-julio.github.io/static/js/main.4717b870.js",
+    "static/js/453.62677636.chunk.js": "/alberto-julio.github.io/static/js/453.62677636.chunk.js",
+    "static/media/grad.jpg": "/alberto-julio.github.io/static/media/grad.37ab5b371383d65e1aa5.jpg",
+    "static/media/Me.png": "/alberto-julio.github.io/static/media/Me.903141117e993bc96c19.png",
+    "static/media/test.png": "/alberto-julio.github.io/static/media/test.a29a3a93de64e2b5da39.png",
+    "static/media/power.jpeg": "/alberto-julio.github.io/static/media/power.076dbe7e7a230802312b.jpeg",
+    "index.html": "/alberto-julio.github.io/index.html",
+    "main.5db27278.css.map": "/alberto-julio.github.io/static/css/main.5db27278.css.map",
+    "main.4717b870.js.map": "/alberto-julio.github.io/static/js/main.4717b870.js.map",
+    "453.62677636.chunk.js.map": "/alberto-julio.github.io/static/js/453.62677636.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5db27278.css",
+    "static/js/main.4717b870.js"
+  ]
+}

@@ -3,7 +3,7 @@
 Welcome to the source code for my personal website! This project serves as my digital portfolio, showcasing who I am, my work, and how to get in touch.
 
 ## 🌐 Live Site
-[https://yourdomain.com](https://yourdomain.com)
+[https://yourdomain.com](https://alberto-julio.github.io/)
 
 ## 🚀 Tech Stack
 
@@ -41,8 +41,8 @@ This project is open source and available under the MIT License.
 🙋‍♂️ About Me
 I'm Alberto — a data science graduate from UC Berkeley with a passion for building software that blends thoughtful design and practical function. Feel free to connect with me!
 
-Website: yourdomain.com
+Website: https://alberto-julio.github.io/
 
-LinkedIn: linkedin.com/in/yourprofile
+LinkedIn: https://www.linkedin.com/in/alberto-julio111/
 
 Email: albertoj756@gmail.com

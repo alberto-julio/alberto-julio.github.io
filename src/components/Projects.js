@@ -37,7 +37,7 @@ function Projects () {
             title: "Housing Model",
             description: "Created a model to predict housing prices within cooke county",
             image: minato,
-            link: "https://github.com/username/project1",
+            link: "https://github.com/alberto-julio/Housing-Model",
         },
         {
             title: "Image Classifier",

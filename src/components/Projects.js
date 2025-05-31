@@ -1,81 +1,64 @@
 import React from "react";
 import './Projects.css';
-import me from '../Me.png';
-import peace from '../peace.jpeg';
-import power from '../power.jpeg';
-import minato from '../test.png';
-import gradPhoto from '../grad.jpg';
 
 function Projects () {
-
     const projectList = [
         {
             title: "Vapor Tunes",
-            description: "Created an end to end Spotify Mood Based playlist generator",
-            image: minato,
+            description: "Created an end-to-end Spotify mood-based playlist generator",
             link: "https://github.com/alberto-julio/vaportunes",
         },
         {
             title: "ZipTie",
-            description: "Long term startup/passion projct, creating video games with my co-founder",
-            image: minato,
+            description: "Long-term startup/passion project, creating video games with my co-founder",
             link: "https://github.com/alberto-julio/Zip-Tie",
         },
         {
             title: "Elections Dataset Analysis",
-            description: "Analyzed an elections dataset to predict the likelihood of a candidate winning their elections based on endorsements from certain political figures",
-            image: minato,
+            description: "Analyzed an elections dataset to predict candidate outcomes based on endorsements",
             link: "https://github.com/alberto-julio/Elections-Analysis",
         },
         {
             title: "Spam and Ham",
-            description: "Created a spam email classifier",
-            image: minato,
+            description: "Built a spam email classifier using NLP techniques",
             link: "https://github.com/alberto-julio/Spam-email-filter",
         },
         {
             title: "Housing Model",
-            description: "Created a model to predict housing prices within cooke county",
-            image: minato,
+            description: "Created a regression model to predict housing prices within Cook County",
             link: "https://github.com/alberto-julio/Housing-Model",
         },
         {
             title: "Image Classifier",
-            description: "Used assembly to create an image classifier using the MNIST dataset",
-            image: minato,
+            description: "Used assembly to build an image classifier on the MNIST dataset",
             link: "https://github.com/alberto-julio/Classify",
         },
         {
             title: "Kachow",
-            description: "Utilized C to optiimize matrix multiplication.",
-            image: minato,
+            description: "Used C to optimize matrix multiplication",
             link: "https://github.com/alberto-julio/Kachow",
         },
         {
             title: "Snake",
-            description: "Implemented the game Snake in C.",
-            image: minato,
+            description: "Implemented the classic Snake game in C",
             link: "https://github.com/alberto-julio/Snek",
         },
         {
             title: "Scheme",
-            description: "Built an interpreter to tokenize Scheme code using python.",
-            image: minato,
+            description: "Built an interpreter in Python to tokenize and parse Scheme code",
             link: "https://github.com/alberto-julio/Scheme",
         },
     ];
 
-    const projectsIntro = "Here is a list of projects that I'm most proud of, ranging from end to end full stack development to AI/ML and data science. I will be adding to this list tentatively.";
-
+    const projectsIntro = "Here is a list of projects that I'm most proud of, ranging from end-to-end full stack development to AI/ML and data science. I’ll be adding more over time.";
 
     return (
         <div className="projects-container">
-            <h1>My Projects :D</h1>
+            <h1>My Projects</h1>
             <p>{projectsIntro}</p>
             <div className="projects-grid">
                 {projectList.map((project, index) => (
                     <div className="project-card" key={index}>
-                        <img src={project.image} alt={project.title} className="project-image" />
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
                         <a href={project.link} target="_blank" rel="noopener noreferrer">
@@ -85,102 +68,7 @@ function Projects () {
                 ))}
             </div>
         </div>
-    )
-
+    );
 }
-export default Projects;
 
-/*
-    const projectList = [
-        {
-            title: "Vapor Tunes",
-            description: "Created an end to end Spotify Mood Based playlist generator",
-            image: minato,
-            link: "https://github.com/alberto-julio/vaportunes",
-        },
-        {
-            title: "ZipTie",
-            description: "Long term startup/passion projct, creating video games with my co-founder",
-            image: minato,
-            link: "https://github.com/alberto-julio/Zip-Tie",
-        },
-        {
-            title: "Solitaire",
-            description: "Small passion project i used to create in a spider solitaire game",
-            image: minato,
-            link: "https://github.com/username/project1",
-        },
-        {
-            title: "Elections Dataset Analysis",
-            description: "Analyzedan elections dataset to predict the likelihood of a candidate winning their elections based on endorsements from certain political figures",
-            image: minato,
-            link: "https://github.com/username/project2",
-        },
-        {
-            title: "Neural Network",
-            description: "Created a very basic neural network",
-            image: minato,
-            link: "https://github.com/username/project1",
-        },
-        {
-            title: "Pacman",
-            description: "Implemented AI principles such as minimax, alpha beta pruning and more in a pacman game",
-            image: minato,
-            link: "https://github.com/username/project2",
-        },
-        {
-            title: "Bayes Net",
-            description: "Implemented a bayes net and other AI principles into a pacman game",
-            image: minato,
-            link: "https://github.com/username/project1",
-        },
-        {
-            title: "Spam and Ham",
-            description: "Created a spam email classifier",
-            image: minato,
-            link: "https://github.com/username/project2",
-        },
-        {
-            title: "Housing Model",
-            description: "Created a model to predict housing prices within cooke county",
-            image: minato,
-            link: "https://github.com/username/project1",
-        },
-        {
-            title: "Image Classifier",
-            description: "Used assembly to create an image classifier using the MNIST dataset",
-            image: minato,
-            link: "https://github.com/username/project2",
-        },
-        {
-            title: "Kachow",
-            description: "Utilized C to optiimize matrix multiplication.",
-            image: minato,
-            link: "https://github.com/username/project1",
-        },
-        {
-            title: "Snake",
-            description: "Implemented the game Snake in C.",
-            image: minato,
-            link: "https://github.com/username/project2",
-        },
-        {
-            title: "Build Your Own World",
-            description: "Created a 2d textile based game in Java.",
-            image: minato,
-            link: "https://github.com/username/project1",
-        },
-        {
-            title: "Word Net",
-            description: "Built a wordnet similar to the one used in the IBM watson using Java.",
-            image: minato,
-            link: "https://github.com/username/project2",
-        },
-        {
-            title: "Scheme",
-            description: "Built an interpreter to tokenize Scheme code using python.",
-            image: minato,
-            link: "https://github.com/alberto-julio/Scheme",
-        },
-    ];
-*/
+export default Projects;

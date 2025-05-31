@@ -2,7 +2,7 @@
   "name": "albertotest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alberto-julio.github.io/alberto-julio.github.io",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
     "@fortawesome/free-brands-svg-icons": "^6.7.1",

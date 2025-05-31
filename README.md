@@ -9,7 +9,7 @@ Welcome to the source code for my personal website! This project serves as my di
 
 - Frontend: [React.js](https://react.dev/)
 - Styling: Tailwind CSS
-- Deployment: Vercel / Netlify
+- Deployment: Github Pages
 - Version Control: Git & GitHub
 
 ## 🧰 Features

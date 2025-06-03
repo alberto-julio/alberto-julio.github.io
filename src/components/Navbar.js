@@ -18,7 +18,7 @@ function Navbar() {
                 </li>
 
                 <li className='nav-item-right'>
-                    <Link to="https://drive.google.com/file/d/1FFSVWM40Os6VLO-dAa1g0fQkUcnyj4LX/view?usp=sharing">C/V</Link>
+                    <Link to="https://drive.google.com/file/d/17CCNyMLaY96eyew14lxe5S_PJ141lUNO/view?usp=sharing">C/V</Link>
                 </li>
 
                 <li className='nav-item-right'>

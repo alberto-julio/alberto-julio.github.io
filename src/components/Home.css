@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  padding: 60px 20px;
+  padding: 3.75rem 1.25rem; /* 60px 20px */
   min-height: 100vh;
   width: 100%;
   background-color: #1e1e1e;
@@ -11,39 +11,39 @@
   box-sizing: border-box;
 }
 
-
-/*
+/* Optional: circular image version
 .left-section,
 really liked in case i ever want to go for a more circular look
 */
 
 .left-section img {
-  width: 200px;
+  width: 100%;
+  max-width: 12.5rem; /* 200px */
   height: auto;
   object-fit: cover;
   object-position: top center;
-  border-radius: 12px; /* Optional: slightly rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Optional: adds depth */
+  border-radius: 0.75rem; /* 12px */
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.4); /* 4px 10px */
 }
 
 .right-section {
-  flex: 1 1 300px;
-  max-width: 500px;
-  padding: 20px;
+  flex: 1 1 18.75rem; /* 300px */
+  max-width: 31.25rem; /* 500px */
+  padding: 1.25rem; /* 20px */
   box-sizing: border-box;
 }
 
 .profile-img {
-  width: 160px;
-  height: 160px;
+  width: 10rem; /* 160px */
+  height: 10rem;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #61dafb;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  border: 0.1875rem solid #61dafb; /* 3px */
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.3); /* 4px 8px */
 }
 
 .name-container h1 {
-  margin-top: 20px;
+  margin-top: 1.25rem; /* 20px */
   font-size: 1.8rem;
   color: #ffffff;
 }
@@ -56,27 +56,27 @@ really liked in case i ever want to go for a more circular look
 
 .about-header {
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem; /* 20px */
   color: #ffffff;
 }
 
 .right-section p {
   font-size: 1.1rem;
   line-height: 1.6;
-  margin-bottom: 16px;
+  margin-bottom: 1rem; /* 16px */
   color: #d6e9f5;
 }
 
-/* Responsive Design */
+/* Medium screens */
 @media (max-width: 768px) {
   .home {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   .right-section {
     max-width: 100%;
-    padding: 0 10px;
+    padding: 0 0.625rem;
   }
 
   .name-container h1 {
@@ -87,3 +87,57 @@ really liked in case i ever want to go for a more circular look
     font-size: 1rem;
   }
 }
+
+@media (max-width: 400px) {
+  .home {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .right-section {
+    max-width: 100%;
+    padding: 0 0.625rem;
+  }
+
+  .name-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .name-container h2 {
+    font-size: 1rem;
+  }
+}
+/* 
+@media (max-width: 480px) {
+  .profile-img {
+    width: 7.5rem; 
+    height: 7.5rem;
+  }
+
+  .about-header {
+    font-size: 1.5rem;
+  }
+
+  .right-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .left-section img {
+    max-width: 10rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .right-section {
+    max-width: 37.5rem;
+  }
+
+  .name-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .name-container h2 {
+    font-size: 1.4rem;
+  }
+} */

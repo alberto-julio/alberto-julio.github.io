@@ -13,12 +13,16 @@ function Navbar() {
                     <Link to="/">Home</Link>
                 </li>
 
+                {/* <li className='nav-item-right'>
+                    <Link to="/">More About Me</Link>
+                </li> */}
+
                 <li className='nav-item-right'>
                     <Link to="/projects">Projects</Link>
                 </li>
 
                 <li className='nav-item-right'>
-                    <Link to="https://drive.google.com/file/d/17CCNyMLaY96eyew14lxe5S_PJ141lUNO/view?usp=sharing">C/V</Link>
+                    <Link to="https://drive.google.com/file/d/1YGj7Cll0v8OG_AA6DNEW_OakSFUAUEi1/view?usp=sharing">C/V</Link>
                 </li>
 
                 <li className='nav-item-right'>

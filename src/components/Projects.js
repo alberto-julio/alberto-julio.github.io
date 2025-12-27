@@ -4,13 +4,6 @@ import './Projects.css';
 
 function Projects () {
     const projectList = [
-
-        {
-            title: "PokeSort",
-            description: "Created a ",
-            link:"",
-            interal: false
-        },
         {
             title: "Vapor Tunes",
             description: "Created an end-to-end Spotify mood-based playlist generator",
@@ -18,9 +11,9 @@ function Projects () {
             internal: false
         },
         {
-            title: "ZipTie",
+            title: "Sza-Merch Bot",
             description: "Long-term startup/passion project, creating video games with my co-founder",
-            link: "/broken",
+            link: "https://github.com/alberto-julio/szamerchbot",
             internal: true
         },
         {
@@ -72,7 +65,6 @@ function Projects () {
     return (
         <div className="projects-container">
             <h1>My Projects</h1>
-            {/* <p>{projectsIntro}</p> */}
             <div className="projects-grid">
                 {projectList.map((project, index) => (
                     <div className="project-card" key={index}>

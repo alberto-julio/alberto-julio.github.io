@@ -1,12 +1,21 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import About from './components/About';
 import Projects from './components/Projects';
+import Broken from './components/Broken';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
 
 
-//https://drive.google.com/file/d/1-eE8It6KQYYy4X6tF3t82NSQpH5OFavd/view?usp=sharing
+// function Navbar() {
+//   return (
+//     <div>
+
+//     </div>
+//   );
+// }
+
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path='/broken' element={<Broken />} />
         </Routes>
       </Router>
     </div>
@@ -25,4 +35,3 @@ function App() {
 }
 
 export default App;
-

@@ -6,15 +6,42 @@
   padding: 3.75rem 1.25rem; /* 60px 20px */
   min-height: 100vh;
   width: 100%;
-  background-color: #1e1e1e;
+
+  /* Blue → Black gradient (matches Projects & Navbar) */
+  background:
+    radial-gradient(
+      circle at top center,
+      #0f2a44 0%,
+      #0b1c2d 35%,
+      #050a12 70%,
+      #000000 100%
+    );
+
   color: #e0f7fa;
   box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 }
 
-/* Optional: circular image version
+
+.home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top,
+    rgba(97, 218, 251, 0.08),
+    transparent 60%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
 .left-section,
-really liked in case i ever want to go for a more circular look
-*/
+.right-section {
+  position: relative;
+  z-index: 1;
+}
 
 .left-section img {
   width: 100%;
@@ -107,37 +134,3 @@ really liked in case i ever want to go for a more circular look
     font-size: 1rem;
   }
 }
-/* 
-@media (max-width: 480px) {
-  .profile-img {
-    width: 7.5rem; 
-    height: 7.5rem;
-  }
-
-  .about-header {
-    font-size: 1.5rem;
-  }
-
-  .right-section p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  .left-section img {
-    max-width: 10rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .right-section {
-    max-width: 37.5rem;
-  }
-
-  .name-container h1 {
-    font-size: 2.2rem;
-  }
-
-  .name-container h2 {
-    font-size: 1.4rem;
-  }
-} */

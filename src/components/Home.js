@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import me from '../Me.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPython, faReact, faJava, faJs} from '@fortawesome/free-brands-svg-icons';
 
 function Home() {
@@ -27,11 +28,26 @@ function Home() {
         <p>{aboutIntro}</p>
         <p>{experience}</p>
         {/* <p>{freeTime}</p> */}
+        <div className='skills-card'>
+          <h2 className='skills-header'>{skills}</h2>
+          <div className='skills-row'>
+            <div className="skill"><FontAwesomeIcon icon={faPython} size="2x" /> Python</div>
+            <div className="skill"><FontAwesomeIcon icon={faJava} size="2x" /> Java</div>
+            <div className="skill"><FontAwesomeIcon icon={faJs} size="2x" /> JavaScript</div>
+            <div className="skill"><FontAwesomeIcon icon={faReact} size="2x" /> React</div>
+          </div>
+        </div>
       </div>
 
-      <div className='skills-card'>
-
-      </div>
+      {/* <div className='skills-card'>
+        <h2 className='skills-header'>{skills}</h2>
+        <div className='skills-row'>
+          <div className="skill"><FontAwesomeIcon icon={faPython} size="2x" /> Python</div>
+          <div className="skill"><FontAwesomeIcon icon={faJava} size="2x" /> Java</div>
+          <div className="skill"><FontAwesomeIcon icon={faJs} size="2x" /> JavaScript</div>
+          <div className="skill"><FontAwesomeIcon icon={faReact} size="2x" /> React</div>
+        </div>
+      </div> */}
 
     </div>
   );
